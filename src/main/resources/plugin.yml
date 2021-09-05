@@ -1,0 +1,9 @@
+name: RegionFlight
+version: '${project.version}'
+main: com.bilicraft.regionflight.RegionFlight
+api-version: 1.17
+depend: [ WorldGuard ]
+permissions:
+  regionflight.allow:
+    default: op
+    description: Allow player flight in specify regions
